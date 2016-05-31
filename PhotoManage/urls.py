@@ -1,3 +1,4 @@
+# coding=utf8
 """PhotoManage URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,4 +19,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+
+
 ]
